@@ -1,0 +1,33 @@
+@import "tailwindcss";
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@theme {
+  --breakpoint-sm: 350px;
+  --breakpoint-md: 576px;
+  --breakpoint-lg: 992px;
+}
+
+@theme {
+  --color-background: #f8fafc;
+  --color-background-secondary: #ededed;
+
+  --color-heading: #343434;
+  --color-nav: #4e4e4e;
+  --color-nav-dark: #303030;
+  --color-subheading: #444444;
+  --color-text: #6b6b6b;
+  --color-muted: #8a8a8a;
+
+  --color-button: #2b2b2b;
+  --color-button-text: #ffffff;
+
+  --color-divider: #bdbdbd;
+}
+
+body {
+  @apply bg-background;
+  font-family: "Inter", sans-serif;
+}
