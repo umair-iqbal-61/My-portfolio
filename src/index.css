@@ -7,6 +7,7 @@
 @theme {
   --breakpoint-sm: 350px;
   --breakpoint-md: 576px;
+  --breakpoint-md-2: 768px;
   --breakpoint-lg: 992px;
 }
 
@@ -14,20 +15,68 @@
   --color-background: #f8fafc;
   --color-background-secondary: #ededed;
 
-  --color-heading: #343434;
+  --color-heading: #333333;
+  --color-heading-dark: #141414;
   --color-nav: #4e4e4e;
   --color-nav-dark: #303030;
   --color-subheading: #444444;
-  --color-text: #6b6b6b;
+  --color-text: #757575;
   --color-muted: #8a8a8a;
 
   --color-button: #2b2b2b;
   --color-button-text: #ffffff;
 
-  --color-divider: #bdbdbd;
+  --color-divider: #a2a2a2;
 }
 
-body {
-  @apply bg-background;
-  font-family: "Inter", sans-serif;
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+@keyframes profile_animate {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@theme {
+  --animate-profile: profile_animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(60px);
+  }
+}
+
+@theme {
+  --animate-wheel: scroll 2s ease infinite;
+}
+
+@layer base {
+  body {
+    @apply bg-background font-inter text-text;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-heading font-semibold;
+  }
+
+  h2 {
+    @apply mb-2
+  }
 }
