@@ -1,10 +1,12 @@
-import Work1 from "../../assets/work1.jpg"
+import Work1 from "../../assets/dax-marketing-ss.png"
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: 'Landing page',
+    title: 'Dax Marketing',
+    code: 'https://github.com/umair-iqbal-61/Dax-Marketing',
+    live: 'https://dax-marketing.vercel.app/',
     category: 'web'
   }
 ]
