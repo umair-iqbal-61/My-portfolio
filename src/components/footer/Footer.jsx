@@ -5,7 +5,7 @@ import { RiFacebookFill } from "react-icons/ri"
 function Footer() {
   return (
     <footer className="bg-white border border-solid border-[rgba(0,0,0,0.1)]">
-      <div className="max-w-242 mx-auto pt-8 pb-18">
+      <div className="max-w-242 mx-auto pt-8 pb-17">
         <h1 className="text-4xl text-heading text-center mb-8">Umair</h1>
 
         <ul className="flex justify-center gap-6 mb-8 [&>li>a]:text-nav [&>li>a]:hover:text-nav-dark">
