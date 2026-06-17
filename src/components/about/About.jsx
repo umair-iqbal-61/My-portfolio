@@ -1,6 +1,6 @@
 import { FileDetail } from "@boxicons/react"
 import AboutImg from "../../assets/Profile.jpeg"
-import Resume from "../../assets/umair-resume.pdf"
+import Resume from "../../assets/umair_iqbal-resume.pdf"
 import Info from "./Info"
 
 function About() {
