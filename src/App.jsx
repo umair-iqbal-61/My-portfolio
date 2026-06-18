@@ -1,3 +1,5 @@
+import Navbar from "./components/Navbar";
+
 import About from "./components/about/About"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
@@ -11,18 +13,9 @@ function App() {
 
   return (
     <>
-      <Header />
-
-      <main className="max-w-242 mx-auto">
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-
-      <Footer />
-      <ScrollUp />
+      <div style={{ background: "var(--color-bg)", minHeight: "100vh" }}>
+        <Navbar />
+      </div>
     </>
   )
 }
