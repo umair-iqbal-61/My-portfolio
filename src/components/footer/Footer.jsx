@@ -4,9 +4,12 @@ import { RiFacebookFill } from "react-icons/ri"
 
 function Footer() {
   return (
-    <footer className="bg-white border border-solid border-[rgba(0,0,0,0.1)]">
+    <footer className="border border-solid border-[rgba(0,0,0,0.1)]">
       <div className="max-w-242 mx-auto pt-8 pb-17">
-        <h1 className="text-4xl text-heading text-center mb-8">Umair</h1>
+        {/* Logo */}
+        <a href="#home" className="flex items-center justify-center text-4xl text-white font-bold text-center mb-8">
+          Uma<span style={{ color: "var(--color-lime)" }}>.</span>
+        </a>
 
         <ul className="flex justify-center gap-6 mb-8 [&>li>a]:text-nav [&>li>a]:hover:text-nav-dark">
           <li><a href="#home">Home</a></li>
@@ -22,7 +25,7 @@ function Footer() {
           <LinksFooter link={"https://x.com/_umair_iqbal"} icon={<FaXTwitter />} />
         </div>
 
-        <span className="block mt-18 text-heading text-center text-[13px]">
+        <span className="block mt-18 text-lime text-center text-[13px]">
           &#169; Umair_Iqbal. All rights reserved.
         </span>
       </div>

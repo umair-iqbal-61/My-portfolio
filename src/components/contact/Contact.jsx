@@ -82,17 +82,17 @@ function Contact() {
             />
 
             <div className="relative mb-8 h-44">
-              <label className="absolute -top-3 left-5 text-[13px] bg-background p-1 z-10">Project</label>
+              <label className="absolute -top-3 left-5 text-[13px] bg-bg p-1 z-10">Project</label>
               <textarea
                 name="project"
                 cols="30"
                 rows="10"
                 placeholder="Write your project"
-                className="absolute top-0 left-0 w-full h-full resize-none text-text border-2 border-solid border-[rgba(0,0,0,0.3)] bg-none outline-none rounded-xl p-6 z-1"
+                className="absolute top-0 left-0 w-full h-full resize-none text-text border-2 border-solid border-[#c4f1354d] bg-none outline-none rounded-xl p-6 z-1"
               ></textarea>
             </div>
 
-            <button className="flex gap-2.5 px-7 lg:px-8 py-4 lg:py-5 bg-heading hover:bg-button cursor-pointer text-white rounded-2xl mt-10">
+            <button className="flex gap-2.5 px-7 lg:px-8 py-4 lg:py-5 bg-lime hover:bg-button cursor-pointer text-bg rounded-2xl mt-10">
               Send Message
               <SendAlt2 rotate={315} />
             </button>

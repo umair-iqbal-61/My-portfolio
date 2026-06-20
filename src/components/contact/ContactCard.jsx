@@ -2,7 +2,7 @@ import { ArrowRightStroke } from "@boxicons/react"
 
 function ContactCard({ icon, title, subtitle, link }) {
   return (
-    <div className="flex flex-col items-center text-center p-4 border border-solid border-[rgba(0,0,0,0.1)] rounded-xl bg-white">
+    <div className="flex flex-col items-center text-center p-4 border border-solid border-[#c4f1354d] rounded-xl">
       {icon}
 
       <h3 className="text-[14px] font-medium">{title}</h3>

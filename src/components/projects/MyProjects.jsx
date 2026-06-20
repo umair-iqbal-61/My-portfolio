@@ -24,8 +24,8 @@ function MyProjects() {
               onClick={(e) => {
                 handleClick(e, index)
               }}
-              className={`${active === index ? 'bg-heading text-white' : ''}
-              text-heading text-[14px] py-1 px-3 font-medium rounded-lg capitalize cursor-pointer hover:bg-heading hover:text-white`}
+              className={`${active === index ? 'bg-lime text-bg' : 'text-lime'}
+              text-[14px] py-1 px-3 font-medium rounded-lg capitalize cursor-pointer hover:bg-lime hover:text-bg`}
               key={index}
             >
               {item.name}
