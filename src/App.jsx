@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import About from "./components/about/About"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
-import Header from "./components/header/Header"
 import Hero from "./components/home/Hero"
 import Projects from "./components/projects/Projects"
 import ScrollUp from "./components/scrollup/ScrollUp"
