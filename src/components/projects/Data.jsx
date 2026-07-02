@@ -1,6 +1,7 @@
 import Work1 from "../../assets/dax-marketing-ss.png"
 import Work2 from "../../assets/movie-explorer-ss.png"
 import Work3 from "../../assets/pawpal-ss.png"
+import Work4 from "../../assets/Dashboard - UmaLedger.png"
 
 export const projectsData = [
   {
@@ -8,7 +9,7 @@ export const projectsData = [
     image: Work1,
     title: 'Dax Marketing',
     code: 'https://github.com/umair-iqbal-61/Dax-Marketing',
-    live: 'https://dax-marketing.vercel.app',
+    live: 'https://dax-marketing.umairiqbal.tech',
     category: 'web'
   },
   {
@@ -16,7 +17,7 @@ export const projectsData = [
     image: Work2,
     title: 'Movie Explorer',
     code: 'https://github.com/umair-iqbal-61/movie-explorer',
-    live: 'https://movie-explorer-alpha-beige.vercel.app',
+    live: 'https://movie-explorer.umairiqbal.tech',
     category: 'web'
   },
   {
@@ -24,7 +25,15 @@ export const projectsData = [
     image: Work3,
     title: 'Pawpal',
     code: 'https://github.com/umair-iqbal-61/Pawpal',
-    live: 'https://pawpal-seven.vercel.app',
+    live: 'https://pawpal.umairiqbal.tech',
+    category: 'web'
+  },
+  {
+    id: 4,
+    image: Work4,
+    title: 'UmaLedger',
+    code: 'https://github.com/umair-iqbal-61/UmaLedger',
+    live: 'https://umalegder.umairiqbal.tech',
     category: 'web'
   }
 ]
