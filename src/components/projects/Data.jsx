@@ -2,6 +2,7 @@ import Work1 from "../../assets/dax-marketing-ss.png"
 import Work2 from "../../assets/movie-explorer-ss.png"
 import Work3 from "../../assets/pawpal-ss.png"
 import Work4 from "../../assets/Dashboard - UmaLedger.png"
+import Work5 from "../../assets/Dashboard - UmaPOS.png"
 
 export const projectsData = [
   {
@@ -34,6 +35,14 @@ export const projectsData = [
     title: 'UmaLedger',
     code: 'https://github.com/umair-iqbal-61/UmaLedger',
     live: 'https://umalegder.umairiqbal.tech',
+    category: 'web'
+  },
+  {
+    id: 5,
+    image: Work5,
+    title: 'UmaPOS',
+    code: 'https://github.com/umair-iqbal-61/UmaPOS',
+    live: 'https://umapos.umairiqbal.tech',
     category: 'web'
   }
 ]
